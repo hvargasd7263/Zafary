@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  main{
+      display: block;
+      border: 0.5px solid rgba(19, 19, 19, 0.925);
+  }
+
+  body{
+    margin: auto;
+    box-sizing: border-box;
+    display: grid;
+    width: 1349px;
+
+
+  }
+
+  .p1 {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 56px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    
+
+}
+
+.p2 {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.p3 {
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Arial;
+    font-size: 29px;
+    line-height: 42px;
+    /*margin-top: 49px;*/
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+
+
+}
+
+.pcontact p{
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 16px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    /*margin-left: 30px;*/
+    color: #000000
+
+}
+
+
+.indexpg article{
+    border-bottom: 1px solid #DBDBDB;
+    padding-top: 0.1px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    
+ }
+
+
+.styleR5 {
+    display: grid;
+    background: #DBDBDB;
+    box-sizing: border-box;
+    /*height: 130px;*/
+    grid-template-columns: 25% 74.9%;
+
+}
+
+
+.styleR7{
+    display: grid;
+    box-sizing: border-box;
+    /*height: 789px;*/
+    grid-template-columns: 25% 74.9%;
+    height: 510px;
+
+
+}
+
+.borderight {
+    border-right: 1px solid #8C8C8C;
+
+}
+
+.chat{
+    background: #F2F2F2;
+    height: 420px;
+}
+
+.imagen{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 4px 10px 5px;
+    left: calc(50% - 90px/2 - 187px);
+}
+
+.formulario-chat {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    height: 50px;
+    width: 95%; 
+    border: 1px solid rgba(219, 219, 219, 0.767);
+    border-radius: 25px;
+  
+  }
+
+  ::placeholder{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8F8F8F;
+    margin-left: 24px;
+    padding: 20px;
+  }
+
+  .formulario-login article:hover {
+    cursor: pointer;
+    background: rgb(235, 230, 230);
+  }
+  
